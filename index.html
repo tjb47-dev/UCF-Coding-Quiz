@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UCF Coding Quiz</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&family=Zen+Dots&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./assests/css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <p class="view-high-score">View Highest Score</p></a>
+            <p>Time: <span class="time-remaining">30</span></p>
+        </header>
+
+        <main>
+            <!-- STARTING THE QUIZ  -->
+            <section class="begin-quiz-container">
+                <h2>UCF Bootcamp Coding Quiz</h2>
+                <p>The following questions will test your knowledge to see what you've learned so far. You have 30 Seconds to answer each question, 5 seconds will be removed for each question answered incorrectly.</p>
+                <button class="start-quiz-btn">Start Quiz</button>
+            </section>
+
+            <!-- QUIZ QUESTIONS -->
+            
+            <section class="questions-container hide">
+                <section class="single-question-container">
+                </section>
+                <section class="answer-result">
+                    <p class="answer-result-text"></p>
+                </section>
+            </section>
+
+            <!-- FINAL SCORE -->
+            <section class="final-score-container hide">
+                <h2>All Done!</h2>
+                <h3>You scored: <span class="final-score"></span></h3>
+                <form>
+                    <label for="final-score-input" class="final-score-label">Enter Your Initials:</label>
+                    <input id="final-score-input" class="initials-value-input" />
+                    <button class="submit-score-btn" type="submit">Submit</button>
+                </form>
+            </section>
+
+            <!-- SECTION DISPLAYS HIGHEST SCORE -->
+            <section id="high-score" class="score-container hide">
+                <h2>Highest Score</h2>
+                <section class="high-score-list-container">
+                    <ol class="high-score-list">
+                    </ol>
+                </section>
+                <section class="quiz-navigation-buttons">
+                    <button class="go-back-btn">Go Back</button>
+                    <button class="clear-score-btn">Clear Highest Score</button>
+                </section>
+            </section>
+        
+        </main>
+
+        <script src="./assests/js/script.js"></script>
+    </body>
+
+</html>
