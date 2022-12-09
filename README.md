@@ -22,12 +22,12 @@ THEN I can save my initials and score
 ## Link
 
 Here is the link to the GitPages site I have created.
-
+https://tjb47-dev.github.io/UCF-Coding-Quiz/
 
 ## Screenshot
 
-![Screenshot of UCF Coding Quiz Webpage.]()
-![Screenshot of UCF Coding Quiz Webpage.]()
+![Screenshot of UCF Coding Quiz Webpage.](https://raw.githubusercontent.com/tjb47-dev/UCF-Coding-Quiz/main/images/UCF-Coding-Quiz.png)
+![Screenshot of UCF Coding Quiz Webpage.](https://raw.githubusercontent.com/tjb47-dev/UCF-Coding-Quiz/main/images/UCF-Coding-Quiz2.png)
 
 ## Credits
 
